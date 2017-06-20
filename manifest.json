@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "JetMacro",
+  "description": "This extension makes surfing the web much faster by allowing the keyboard to do most of the work",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click here for guide"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
